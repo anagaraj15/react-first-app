@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Header {
+  text-align: center;
+  padding: 20px;
+  color: floralwhite;
+  background-color: darkslateblue;
+}
+
+Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: darkslateblue;
+  color: floralwhite;
+  padding: 20px;
+  width: 100%;
+}
+
+.countContainer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.LikeBtn {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: darkslateblue;
+  color: floralwhite;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px rgba(0,0,0,0.6);
+}
+
+.UnlikeBtn {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: darkslateblue;
+  color: floralwhite;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px rgba(0,0,0,0.6);
+}
